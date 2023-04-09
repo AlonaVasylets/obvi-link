@@ -5,8 +5,8 @@ body {
   line-height: 1.4;
 }
 .center {
-  padding-left: calc(50vw - 125px);
-  padding-right: calc(50vw - 125px);
+  padding-left: calc(50vw - 140px);
+  padding-right: calc(50vw - 140px);
 }
 img {
   display: block;
@@ -24,4 +24,17 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.button {
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  background-color: var(--main-text-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 120px;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: center;
+  color: var(--button-color);
 }
